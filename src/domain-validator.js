@@ -16,7 +16,7 @@ module.exports = function makeValidator(domains, allowSubdomains) {
         }
     };
     return new RegExp(
-        (allowSubdomains ? '^([^@/:]*\.)?(' : '^(') +
+        (allowSubdomains ? '^([^@/:]*\\.)?(' : '^(') +
         domains
             .map(function (s) {
                 return s.replace('.', '\\.');
