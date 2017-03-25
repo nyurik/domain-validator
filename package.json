@@ -1,6 +1,6 @@
 {
   "name": "domain-validator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Shared code for validating domain names against a whitelist",
   "main": "src/domain-validator.js",
   "scripts": {
@@ -18,8 +18,7 @@
   "author": "Yuri Astrakhan <YuriAstrakhan@gmail.com>",
   "license": "MIT",
   "bugs": "https://github.com/nyurik/domain-validator/issues",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^2.4.5"
   }
