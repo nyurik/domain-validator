@@ -4,19 +4,23 @@
   "description": "Shared code for validating domain names against a whitelist",
   "main": "src/domain-validator.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "preversion": "npm test"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nyurik/domain-validator.git"
+  "repository": "nyurik/domain-validator",
+  "keywords": [
+    "domains",
+    "whitelist",
+    "domainvalidator",
+    "wikimedia"
+  ],
+  "type": "git",
+  "author": "Yuri Astrakhan <YuriAstrakhan@gmail.com>",
+  "license": "MIT",
+  "bugs": "https://github.com/nyurik/domain-validator/issues",
+  "dependencies": {
   },
   "devDependencies": {
     "mocha": "^2.4.5"
-  },
-  "keywords": [
-    "wikimedia"
-  ],
-  "author": "Yuri Astrakhan <yurik@wikimedia.org>",
-  "license": "MIT",
-  "bugs": "https://github.com/nyurik/domain-validator/issues"
+  }
 }
