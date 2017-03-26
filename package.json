@@ -20,6 +20,6 @@
   "bugs": "https://github.com/nyurik/domain-validator/issues",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "^3.2.0"
   }
 }
