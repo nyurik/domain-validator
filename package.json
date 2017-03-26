@@ -1,6 +1,6 @@
 {
   "name": "domain-validator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Shared code for validating domain names against a whitelist",
   "main": "src/domain-validator.js",
   "scripts": {
