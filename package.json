@@ -1,6 +1,6 @@
 {
   "name": "domain-validator",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Shared code for validating domain names against a whitelist",
   "main": "src/domain-validator.js",
   "scripts": {
@@ -14,7 +14,6 @@
     "domainvalidator",
     "wikimedia"
   ],
-  "type": "git",
   "author": "Yuri Astrakhan <YuriAstrakhan@gmail.com>",
   "license": "MIT",
   "bugs": "https://github.com/nyurik/domain-validator/issues",
